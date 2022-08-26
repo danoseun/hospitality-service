@@ -1,5 +1,5 @@
 # hospitality-service
-App that calculates overstay fees for customer occupying a booked apartment.
+App that calculates overstay fees for customers occupying a booked apartment.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ If you change the port in your .env file then use the port instead of the one ab
 
 ```
 
-## The following assumptions were made while building the project
+## The following assumptions were made while building the project within the short time frame:
 * The overstay fees will be calculated individually by the admin of the app when the following values are supplied: 
    `reservationId`, `day` and `exitDateTime`.
 * The reservationId will be supplied via the `req.params` while the `day` and `exitDateTime` will be made available via `req.body`.
@@ -56,8 +56,8 @@ If you change the port in your .env file then use the port instead of the one ab
 `> $ npm test`
 
 ## Built with
-Typescript
-Node
-Express
+Typescript,
+Node,
+Express,
 Postgres
 
