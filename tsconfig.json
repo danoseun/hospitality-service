@@ -34,6 +34,5 @@
     "include": [
       "./src/**/*.tsx",
       "./src/**/*.ts"
-  , "src/database/migrations/20211209202539-create-user.ts", "src/server.ts"
     ]
   }
