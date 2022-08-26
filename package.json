@@ -1,0 +1,49 @@
+{
+  "name": "hospitality-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon --watch \"**/*.ts\" --exec \"ts-node\" src/app.ts",
+    "migrate": "ts-node ./src/models",
+    "test": "jest --runInBand --testTimeout=40000 --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danoseun/hospitality-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danoseun/hospitality-service/issues"
+  },
+  "homepage": "https://github.com/danoseun/hospitality-service#readme",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0",
+    "pg-format": "^1.0.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.8",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^18.7.13",
+    "@types/nodemon": "^1.19.2",
+    "@types/pg": "^8.6.5",
+    "@types/pg-format": "^1.0.2",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.0.0",
+    "supertest": "^6.2.4",
+    "ts-jest": "^28.0.8"
+  }
+}
