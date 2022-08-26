@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "dev": "nodemon --watch \"**/*.ts\" --exec \"ts-node\" src/app.ts",
+    "start": "nodemon --watch \"**/*.ts\" --exec \"ts-node\" src/app.ts",
     "migrate": "ts-node ./src/models",
     "test": "jest --runInBand --testTimeout=40000 --forceExit"
   },
